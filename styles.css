@@ -56,6 +56,13 @@ button {
     font-size: 14px;
     font-weight: 600;
 }
+.actions > a {
+    color: #67b54b;
+}
+.actions > button {
+    color: #fff;
+    background-color: #67b54b;
+}
 .main{
     margin: 20px 0;
     text-align: center;
