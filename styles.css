@@ -36,11 +36,11 @@ button {
     display: inline;
     margin: 25px;
 }
-.logo > img {
-    height: 100%;
-}
 .logo {
     width: 15%;
+}
+.logo > img {
+    height: 100%;
 }
 .navbar {
     width: 70%;
@@ -83,6 +83,21 @@ h4 {
 }    
 .form {
     margin: 25px 0px 15px;
+}
+.form > input {
+    padding: 15px 20px 15px;
+    border-radius: 5px;
+    text-align: left;
+}
+.form > button {
+    padding: 16px 20px 16px;
+    border: 0;
+    border-radius: 5px;
+    text-align: center;
+}
+.trial {
+    margin-bottom: 40px;
+    font-size: 18px;
 }
 .img2 {
     width: 70%;
