@@ -90,7 +90,8 @@ h4 {
     text-align: left;
 }
 .form > button {
-    padding: 16px 20px 16px;
+    padding: 17px 20px 17px;
+    margin-left: -10px;
     border: 0;
     border-radius: 5px;
     text-align: center;
