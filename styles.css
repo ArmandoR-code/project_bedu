@@ -7,12 +7,16 @@ body {
     background-color: #fffbf7;
     margin: 0;
 }
-p {
-    color: #8b8b8bcc;
-}
 button {
     color: #fff; 
     background-color: #025157;
+}
+.fix-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #fffbf7;
 }
 .header > * {
     display: inline-block;
@@ -27,7 +31,7 @@ button {
     margin-right: 20px;
     margin-bottom: 0px;*/
     
-    margin: 20px 20px 100px;
+    margin: 20px 20px;
     font-size: 0px;
     height: 45px;
     font-family: sans-serif;
@@ -66,7 +70,7 @@ button {
     border-radius: 5px;
 }
 .main{
-    margin: 20px 0;
+    margin: 250px 0; 
     text-align: center;
 }
 h1 {
@@ -85,22 +89,62 @@ h4 {
     margin: 25px 0px 15px;
 }
 .form > input {
-    padding: 15px 20px 15px;
-    border-radius: 5px;
+    padding: 15px 20px;
+    border-radius: 8px;
+    border: 1px solid #b6b6b6;
     text-align: left;
+    height: 100%;
 }
 .form > button {
-    padding: 17px 20px 17px;
-    margin-left: -10px;
-    border: 0;
-    border-radius: 5px;
+    padding: 16px 20px;
+    margin-left: -15px;
+    border: 1px solid #b6b6b6;
+    border-radius: 8px;
+    border-start-start-radius: 0;
     text-align: center;
 }
 .trial {
+    color: #8b8b8bcc;
     margin-bottom: 40px;
     font-size: 18px;
 }
 .img2 {
     width: 70%;
     margin: 30px 0;
+}
+.promo {
+    display: flex;
+    flex-direction: row;
+    margin: 100px auto;
+    width: 70%;
+    align-items: center;
+}
+.promo .exp-video {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.promo .exp-video img {
+    width: 120px;
+    margin-top: 10px;
+}
+.publish {
+    flex: 1;
+}
+.publish h3 {
+   color: #025157;
+   font-family: "Alegreya", serif;
+   font-weight: 800;
+   font-size: 40px;
+   line-height: 48px;
+}
+.publish > p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+.publish .publish-text > p {
+    color: #8b8b8bcc;
+    margin-right: 18px;
 }
