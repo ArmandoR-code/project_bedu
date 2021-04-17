@@ -70,8 +70,8 @@ button {
     border-radius: 5px;
 }
 .main{
-    margin: 250px 0; 
     text-align: center;
+    margin-top: 300px;
 }
 h1 {
    color: #025157;
@@ -147,4 +147,69 @@ h4 {
 .publish .publish-text > p {
     color: #8b8b8bcc;
     margin-right: 18px;
+}
+.features {
+    display: grid;
+    grid-template: repeat(2, 1fr) / repeat(2, 1fr);
+    height: 800px;
+    background-color: #025157;
+    padding: 5% 10%;
+}
+.features .feature-card {
+    background-color: #ffff;
+    margin: 0 15px 30px;
+    border: 1px solid #dadada;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    overflow: hidden;
+}
+.features .feature-card .feature-content {
+    padding: 30px 20px 40px 40px;
+    flex: 2;
+}
+.features .feature-card .feature-content > * {
+    margin-bottom: 1rem;
+    margin-top: 0;
+}
+.features .feature-card .feature-content img {
+    width: 50px;
+}
+.features .feature-card .feature-content figure {
+    width: 50px;
+    margin-left: 0;
+}
+.features .feature-card .feature-content h3 {
+    font-size: 24px;
+    color: #343434;
+    font-weight: 400;
+}
+.features .feature-card .feature-content p {
+    font-size: 1rem;
+    color: #7e7e7e;
+    font-weight: 400;
+}
+.features .feature-card .feature-content a {
+    font-size: 1rem;
+    color: #67b54b;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.features .feature-card .feature-img {
+    flex: 1;
+    margin-top: 0;
+    position: relative;
+    width: 40%;
+    right: -50px;
+    height: 80%;
+    transition: right 1s;
+}
+.features .feature-card .feature-img:hover {
+    right: 0;
+}
+.features .feature-card .feature-img figure, .features .feature-card .feature-img img {
+    margin-top: 0;
+    height: 100%;
 }
