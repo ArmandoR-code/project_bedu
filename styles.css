@@ -90,37 +90,20 @@ h4 {
     display: inline-block;
 }
 .form > input {
-<<<<<<< HEAD
-    padding: 15px 20px;
-    border-radius: 8px;
-    border: 1px solid #b6b6b6;
-=======
-    padding-inline-end: 50px;
-    padding-top: 20px;
-    padding-inline-start: 15px;
-    padding-bottom: 20px;
-    border-width: thin;
+    padding: 16px 20px;
+    border: 1px solid #b6b6b6;;
     border-radius: 8px; 
     border-end-end-radius: 0;
->>>>>>> test_from
     text-align: left;
     height: 100%;
 }
 .form > button {
-<<<<<<< HEAD
-    padding: 16px 20px;
-    margin-left: -15px;
-    border: 1px solid #b6b6b6;
-    border-radius: 8px;
-    border-start-start-radius: 0;
-=======
-    padding: 21px 30px 21px;
+    padding: 16px 30px;
     margin-left: -18px;
-    border: 0;
+    border: 1px solid #b6b6b6;
     border-radius: 8px;
     border-end-start-radius: 0;
     border-top-left-radius: 0;
->>>>>>> test_from
     text-align: center;
 }
 .trial {
@@ -135,7 +118,7 @@ h4 {
 .promo {
     display: flex;
     flex-direction: row;
-    margin: 100px auto;
+    margin: 50px auto;
     width: 70%;
     align-items: center;
 }
