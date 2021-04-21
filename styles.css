@@ -219,3 +219,57 @@ h4 {
     margin-top: 0;
     height: 100%;
 }
+
+.success-stories {
+    background-color: #a1d683;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    height: 800px;
+    /*padding: 0;
+    margin: 0;
+    align-content: center;*/
+}
+.success-stories .overview {
+    flex: 2;
+    align-items: center;
+    width: 400px;
+    height: 400px;
+    padding: 90px;
+    margin: auto;
+}
+.success-stories .overview h2 {
+   color: #025157;
+   font-family: "Alegreya", serif;
+   line-height: 61px;
+   font-size: 51px;
+   font-weight: 710;
+}
+.success-stories .overview p {
+    color: #343434;
+    font-size: 18px;
+    line-height: 1.5;    
+}
+.success-stories .overview img {
+   width: 600px; 
+}
+.success-stories .overview button {
+    padding: 12px 12px 6px 12px;
+    height: 45px;
+    border-radius: 8px;
+    font-size: 14px;
+    font-weight: 600;lign-items: center;
+    
+}
+.success-stories .stories-carousel {
+    flex: 1;
+    align-items: center;
+    width: 400px;
+    height: 400px;
+    padding: 90px;
+    margin: auto;
+    /*background-color: #fff;*/
+}
+.card .card-media img {
+    width: 150px;
+}
