@@ -156,8 +156,7 @@ h4 {
 }
 .features {
     display: grid;
-    grid-template: repeat(2, 1fr) / repeat(2, 1fr);
-    height: 800px;
+    grid-template: repeat(2, 330px) / repeat(2, 1fr);
     background-color: #025157;
     padding: 5% 10%;
 }
@@ -167,7 +166,6 @@ h4 {
     border: 1px solid #dadada;
     border-radius: 5px;
     display: flex;
-    flex-direction: row;
     align-items: center;
     overflow: hidden;
 }
@@ -181,10 +179,6 @@ h4 {
 }
 .features .feature-card .feature-content img {
     width: 50px;
-}
-.features .feature-card .feature-content figure {
-    width: 50px;
-    margin-left: 0;
 }
 .features .feature-card .feature-content h3 {
     font-size: 24px;
@@ -205,7 +199,6 @@ h4 {
 
 .features .feature-card .feature-img {
     flex: 1;
-    margin-top: 0;
     position: relative;
     width: 40%;
     right: -50px;
