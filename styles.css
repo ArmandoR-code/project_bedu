@@ -260,15 +260,19 @@ h4 {
 .success-stories .stories-carousel {
     flex: 1;
 }
+.carousel-indicators li {
+    background-color: black;
+}
 .success-stories .stories-carousel .card {
     border-radius: 10px;
+    margin-bottom: 10px;
 }
 .success-stories .stories-carousel .card .card-media {
     position: relative;
 }
 .success-stories .stories-carousel .card .card-media img {
     width: 100%;
-    max-height: 20vw;
+    /*max-height: 20vw;*/
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
 }.success-stories .stories-carousel .card .card-media .company {
@@ -322,7 +326,7 @@ h4 {
 .success-stories .stories-carousel .card .card-footer button {
     display: block;
     border-radius: 5px;
-    padding: 12px 20px;
+    padding-block: 10px;
     width: 100%;
     font-weight: 600;
 }
@@ -410,6 +414,9 @@ h4 {
    .main .img2 {
        display: none;
    }
+   .main .form > input {
+        padding-block: 19px;
+   }
    .promo {
        flex-direction: column;
        width: 90%;
@@ -438,6 +445,7 @@ h4 {
     }
     .publish .publish-text .form > input {
         width: 50%;
+        padding-block: 28px;
     }
     .publish .publish-text .form > button {
         width: 40%;
@@ -457,6 +465,7 @@ h4 {
     }
     .success-stories .overview {
         padding-right: 0;
+        margin-top: 15px;
         margin-bottom: 15px;
     }
     .success-stories .stories-carousel {
@@ -466,7 +475,39 @@ h4 {
         font-size: 25px;
         line-height: 1.2;
     }
-   }
+    .success-stories .stories-carousel .card .card-body h3 {
+        font-size: 20px;
+    }
+    .success-stories .stories-carousel .card .card-footer {
+        padding: 0 50px;
+        margin-bottom: 30px;
+    }
+    .how-work {
+        padding: 5%;
+    }
+    .how-work .title {
+        font-size: 25px;
+    }
+    .how-work .description {
+        width: 100%;
+        font-size: 1em;
+    }
+    .how-work .steps {
+        grid-template: repeat(4, 1fr)/ 1fr;
+        margin-top: 20px;
+    }
+    .how-work .steps .card-step {
+        display: flex;
+        flex-direction: row-reverse;
+        margin: auto;
+    }
+    .how-work .steps .card-step .card-step-img {
+        height: auto;
+    }
+    .how-work .steps .card-step .card-step-img .card-step-icon {
+        position: absolute;
+        left: 25px;
+    }
 @media (min-width: 426px) and (max-width: 768px) {
    .promo {
        flex-direction: column;
