@@ -112,3 +112,11 @@ h1 {
 .faq .card .card-body a {
   color: #6abf4b;
 }
+@media (max-width: 425px) {
+  .header .platforms .btn-group {
+    width: 100%;
+  }
+  .row {
+    flex-direction: column;
+  }
+}
