@@ -69,7 +69,7 @@ button {
 .actions > button {
     color: #fff;
     background-color: #67b54b;
-    width: 65%;
+    width: 50%;
     padding: 12px 14px 12px;
     border: 0;
     border-radius: 5px;
@@ -95,7 +95,7 @@ h4 {
     display: inline-block;
 }
 .form > input {
-    padding: 16px 15px;
+    padding: 19px 15px;
     border: 1px solid #b6b6b6;;
     border-radius: 8px; 
     border-end-end-radius: 0;
@@ -321,7 +321,7 @@ h4 {
 }
 .success-stories .stories-carousel .card .card-footer {
     padding: 25px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 .success-stories .stories-carousel .card .card-footer button {
     display: block;
@@ -414,8 +414,11 @@ h4 {
    .main .img2 {
        display: none;
    }
+   .from {
+       display: flex;
+   }
    .main .form > input {
-        padding-block: 19px;
+        width: 187px;
    }
    .promo {
        flex-direction: column;
@@ -508,11 +511,14 @@ h4 {
         position: absolute;
         left: 25px;
     }
+}
 @media (min-width: 426px) and (max-width: 768px) {
    .promo {
        flex-direction: column;
    }
 } 
 @media (min-width: 769px) and (max-width: 1024px) {
-
+    .actions > button {
+        padding: unset;
+    }
 }
