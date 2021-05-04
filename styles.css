@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya&family=Open+Sans&family=Slabo+27px&display=swap');
 * {
     box-sizing: border-box;
     margin: 0;
@@ -35,17 +36,7 @@ button {
     display: inline;
     margin: 25px;
 }
-.logo {
-    width: 15%;
-}
-.logo > img {
-    height: 100%;
-}
 .navbar {
-    text-align: center;
-    color: #025157;
-    font-weight: 500;
-    font-size: large;
     background-color: #fffbf7;
 }.navbar-light .nav-item .nav-link {
     color: #025157;
@@ -57,20 +48,22 @@ button {
     background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgb(3, 81, 77)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
   }
 .actions {
-    width: 18%;
+    /*width: 18%;*/
     text-align: right;
     font-size: 14px;
     font-weight: 600;
 }
-.actions > a {
-    color: #67b54b;
-    margin-right: 20px;
+.actions > * {
+    margin-right: 10px;
+    margin-left: 10px;
 }
-.actions > button {
+.actions a {
+    color: #67b54b;
+}
+.actions button {
     color: #fff;
     background-color: #67b54b;
-    width: 50%;
-    padding: 12px 14px 12px;
+    padding: 12px 14px;
     border: 0;
     border-radius: 5px;
 }
@@ -93,6 +86,7 @@ h4 {
 .form {
     margin: 25px 0px 15px;
     display: inline-block;
+    height: 55px;
 }
 .form > input {
     padding: 19px 15px;
@@ -237,7 +231,7 @@ h4 {
 .success-stories .overview p {
     color: #343434;
     font-size: 18px;
-    line-height: 1.5;
+    font-family: "Open Sans", sans-serif;
 }
 .success-stories .overview .btn-beefy {
     color: #fff;
@@ -368,32 +362,40 @@ h4 {
     background-color: #fff;
     border: 1px solid #dadada;
     border-radius: 5px;
-    margin: auto 20px;
+    margin-left: 20px;
+    margin-right: 20px;
     text-align: left;
 }
 .how-work .steps .card-step .card-step-img {
+    position: relative;
     height: 350px;
 }
 .how-work .steps .card-step .card-step-img .card-step-icon {
     width: 21px;
+    position: absolute;
+    left: 25px;
+    top: 25px;
 }
 .how-work .steps .card-step .card-step-img .card-step-ill {
     width: 100%;
     height: 100%;
 }
+.how-work .steps .card-step .card-step-body {
+    padding: 25px;
+} 
 .how-work .steps .card-step .card-step-body h3 {
     text-align: center;
-    margin: 30px auto 15px;
     color: #025157;
     font-family: "Alegreya", serif;
     font-size: 30px;
-    font-weight: 735;
+    font-weight: 800;
 }
 .how-work .steps .card-step .card-step-body p {
+    height: 85px;
     font-size: 15px;
     font-weight: 400;
     line-height: 1.5;
-    margin-bottom: 20px;
+    margin-bottom: 16px;
     color: #45484c;
 }
 .how-work .steps .card-step .card-step-body a {
