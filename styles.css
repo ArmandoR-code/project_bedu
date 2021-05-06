@@ -254,9 +254,6 @@ h4 {
 .success-stories .stories-carousel {
     flex: 1;
 }
-.carousel-indicators li {
-    background-color: black;
-}
 .success-stories .stories-carousel .card {
     border-radius: 10px;
     margin-bottom: 10px;
