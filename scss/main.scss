@@ -1,0 +1,91 @@
+// partials
+@use 'global' as *;
+
+.blog {
+    background-color: #fff;
+    max-width: unset;
+    padding: 5% 10%;
+
+    .title {
+        @extend %base-title
+    }
+
+    .process.list {
+        margin-top: 40px;
+        margin-bottom: 36px;
+    }
+    .process {
+        margin-bottom: 25px;
+
+        .process-icon {
+            width: 60px;
+            height: 60px;
+            margin-right: 10px;
+            text-align: center;
+
+            img {
+                height: 100%;
+                width: 50px;
+            }
+        }
+
+        & > div {
+            & > h3 {
+              color: $dark-green-title;
+              margin-bottom: 0;
+              font-size: 30px;
+              font-weight: 500;
+            }
+            & > p {
+              color: $dark-green-text;
+              margin: 0;
+            }
+        }
+    }
+
+    button {
+        height: auto;
+        border-radius: 8px;
+        padding: 12px;
+        width: 180px;
+        margin-bottom: 15px;
+    }
+
+    .metadata {
+        .category {
+            color: $ligth-green;
+        }
+        .read-time {
+            color: $ligth-gray;
+        }
+    }
+    .card-text {
+        color: $gray;
+        font-size: 18px;
+        line-height: 1.5em;
+        min-height: 6em;
+
+        .read-more {
+            & > a {
+                text-decoration: underline;
+            }
+        }
+    }
+    
+    .author {
+        display: flex;
+        align-items: center;
+        img {
+            border-radius: 50%;
+            width: 35px;
+            height: 34px;
+        }
+        p {
+            margin-left: 8px;
+            margin-bottom: 0;
+            font-weight: 600;
+            font-size: 14px;
+            color: $gray;
+        }
+    }
+}

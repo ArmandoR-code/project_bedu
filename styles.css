@@ -400,6 +400,7 @@ h4 {
     font-weight: 600;
     line-height: 1.4;
 }
+
 @media (max-width: 425px) {
    .main {
        margin-top: 130px;
