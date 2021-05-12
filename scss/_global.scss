@@ -1,18 +1,29 @@
 //_global.css
+
+//colores
 $dark-green-title: #025157;
 $dark-green-text: #135359;
 $white: #fff;
 $gray: #4a4a4a;
 $ligth-gray: #979797;
 $ligth-green: #67b54b;
+$awful-green: #96d178;
+$grey-idk: #b6b6b6;
+$that-color: #b3cbcd;
 
 // fuente
 $font-title: "Alegreya", serif;
+//$f-weight: 800px !default;
 
 // placeholder
 %base-title {
     font-family: $font-title;
     color: $dark-green-title;
+}    
+
+// 2do palceholder
+%base-button {
+    background-color: $dark-green-title;
+    color: $white;
+    //font-weight: $f-weight;
 }
-
-
