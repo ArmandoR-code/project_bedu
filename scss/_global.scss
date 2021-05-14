@@ -13,17 +13,17 @@ $that-color: #b3cbcd;
 
 // fuente
 $font-title: "Alegreya", serif;
-//$f-weight: 800px !default;
+$f-weight: 800;
 
 // placeholder
 %base-title {
     font-family: $font-title;
     color: $dark-green-title;
+    font-weight: $f-weight;
 }    
 
 // 2do palceholder
 %base-button {
     background-color: $dark-green-title;
     color: $white;
-    //font-weight: $f-weight;
 }

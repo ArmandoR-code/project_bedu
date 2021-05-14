@@ -8,7 +8,6 @@
 
     .title {
         @extend %base-title;
-        font-weight: 800;
     }
 
     .process.list {
@@ -102,10 +101,9 @@
     background-color: $awful-green;
     margin-top: -30px;
     
-    h2 {
+    & > h2 {
         @extend %base-title;
         font-size: 60px;
-        font-weight: 800;
     }
 
     form {
