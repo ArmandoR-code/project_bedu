@@ -1,4 +1,4 @@
-.blog .title, .try-it > h2 {
+.blog .title, .try-it > h2, .footer .col-sm h2 {
   font-family: "Alegreya", serif;
   color: #025157;
   font-weight: 800;
@@ -179,6 +179,46 @@
   font-weight: 500;
   line-height: 1.6;
   max-width: 340px;
+}
+
+.footer {
+  padding: 5% 10% 2%;
+  margin: 0;
+  max-width: unset;
+}
+.footer .col-sm p {
+  font-family: "Open Sans", sans-serif;
+}
+.footer .col-sm h4 {
+  text-transform: uppercase;
+  color: #025157;
+  font-weight: 700;
+  font-size: 13px;
+  font-family: sans-serif;
+  margin-bottom: 30px;
+}
+.footer .col-sm ul {
+  list-style: none;
+}
+.footer .col-sm ul li {
+  margin-bottom: 20px;
+  font-size: 18px;
+}
+.footer .col-sm ul li a {
+  font-family: "Open Sans", sans-serif;
+}
+.footer .social {
+  margin-left: 28px;
+  width: 10%;
+}
+.footer .social a {
+  margin-right: 20px;
+}
+.footer .social a img {
+  width: 100%;
+}
+.footer p, .footer a {
+  color: #4a4a4a;
 }
 
 /*# sourceMappingURL=output.css.map */

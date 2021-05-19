@@ -202,3 +202,53 @@
 
     }
 }
+.footer {
+    padding: 5% 10% 2%;
+    margin: 0;
+    max-width: unset;
+        .col-sm {
+
+            h2 {
+                @extend %base-title;
+            }
+            p {
+                font-family: "Open Sans", sans-serif;
+            }
+            h4 {
+                text-transform: uppercase;
+                color: $dark-green-title;
+                font-weight: 700;
+                font-size: 13px;
+                font-family: sans-serif;
+                margin-bottom: 30px;
+            }
+            ul {
+                list-style: none;
+
+                li {
+                    margin-bottom: 20px;
+                    font-size: 18px;
+
+                    a {
+                        font-family: "Open Sans", sans-serif;
+                    }
+                }
+            }
+        }
+
+    .social {
+        margin-left: 28px;
+        width: 10%;
+
+        a {
+            margin-right: 20px;
+
+            img {
+                width: 100%;
+            }
+        }
+    }
+    p, a {
+        color: $gray;
+    }
+    }
