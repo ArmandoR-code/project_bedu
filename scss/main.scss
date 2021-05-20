@@ -222,6 +222,9 @@
                 font-family: sans-serif;
                 margin-bottom: 30px;
             }
+            nav {
+                color: $gray;
+            }
             ul {
                 list-style: none;
 
@@ -238,8 +241,8 @@
 
     .social {
         margin-left: 28px;
-        width: 10%;
-
+        width: 100%;
+        display: inline-flex;
         a {
             margin-right: 20px;
 
@@ -248,7 +251,7 @@
             }
         }
     }
-    p, a {
+    a {
         color: $gray;
     }
     }

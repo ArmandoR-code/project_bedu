@@ -197,6 +197,9 @@
   font-family: sans-serif;
   margin-bottom: 30px;
 }
+.footer .col-sm nav {
+  color: #4a4a4a;
+}
 .footer .col-sm ul {
   list-style: none;
 }
@@ -209,7 +212,8 @@
 }
 .footer .social {
   margin-left: 28px;
-  width: 10%;
+  width: 100%;
+  display: inline-flex;
 }
 .footer .social a {
   margin-right: 20px;
@@ -217,7 +221,7 @@
 .footer .social a img {
   width: 100%;
 }
-.footer p, .footer a {
+.footer a {
   color: #4a4a4a;
 }
 
